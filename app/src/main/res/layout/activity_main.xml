@@ -25,10 +25,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Spinner รับข้อมูลจาก ArrayList"/>
+        android:text="Spinner รับข้อมูลจาก ArrayList&lt;String&gt;"/>
 
     <Spinner
         android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Spinner รับข้อมูลจาก ArrayList&lt;Symbol&gt;"/>
+
+    <Spinner
+        android:id="@+id/spinner3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"/>
